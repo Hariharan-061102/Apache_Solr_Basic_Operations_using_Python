@@ -99,22 +99,37 @@ getDepFacet(v_phoneCollection)
 ```
 
 ## OUTPUT:
+### After starting the solr
 ![solr_start](https://github.com/user-attachments/assets/5844c6b8-cce3-40da-8519-6acdababe3ec)
+### Creating Collection using the defined Function
 ![creating_collection_terminal](https://github.com/user-attachments/assets/e56b50d2-aee2-4451-b1c4-7c559cb69d3d)
+### Relfection of created Collections on the Site
 ![collections_on_site](https://github.com/user-attachments/assets/b1469247-c75e-4fcd-8f46-404ce0162747)
+### Employee Count before indexing the document
 ![4 Emp_before_indexing](https://github.com/user-attachments/assets/5eb0a12d-9f66-40c0-b5cf-680d28f84528)
+### NameCollection Before indexing 
 ![before_indexing1](https://github.com/user-attachments/assets/3d3c5e23-e31f-44bd-9cec-076010d790b7)
+### PhoneCollection Before indexing
 ![before_indexing2](https://github.com/user-attachments/assets/0a19724b-6413-4a2e-b649-019c59ede985)
+## Indexing the document using the function
 ![indexing_terminal](https://github.com/user-attachments/assets/61acd35d-22f0-468d-8e63-7f8d81209bfa)
+### NameCollection After indexing 
 ![af_index_department](https://github.com/user-attachments/assets/e8fba65e-dcea-4490-abfd-35ee4ff5053e)
+### PhoneCollection After indexing
 ![af_index_gender](https://github.com/user-attachments/assets/5cba4f31-ed2b-4ede-9ab4-cd37f2d75337)
+### Before Deleting Employee
 ![bf_del](https://github.com/user-attachments/assets/f02ab708-cb74-400d-b301-e48d932294f2)
+### Deleting Employee
 ![del_terminal](https://github.com/user-attachments/assets/7408b0f5-6f86-4951-8309-9719f70285e0)
+### After Deleting Empoyee
 ![af_del](https://github.com/user-attachments/assets/33d6f76a-3e3f-4434-9811-69c3a99fee9d)
+### Count after indexing
 ![count_af_indexing](https://github.com/user-attachments/assets/ef0a0349-3c28-4544-aabb-fe03e0a46e3b)
+### SearchbyColumn
 ![search1](https://github.com/user-attachments/assets/4721c4af-5a95-4de8-92e7-b1c442f5860b)
 ![search2](https://github.com/user-attachments/assets/30d421af-fab3-40d5-a9ee-1857b9d02c75)
 ![search3](https://github.com/user-attachments/assets/45afe562-a364-4991-86d8-be04dbd43abd)
+## Groups Count for Departments
 ![last2](https://github.com/user-attachments/assets/57a8d734-a895-4fa3-a725-38193197ba28)
 ![last1](https://github.com/user-attachments/assets/2b0598af-8855-48d6-aa88-53ce435ac03c)
 
