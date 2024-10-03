@@ -1,16 +1,25 @@
 # Apache_Solr_Basic_Operations_using_Python
 ## Problem Statement
 1.createCollection(p_collection_name)
+
   Using Any of the programming language implement below functions
+  
 2.indexData(p_collection_name, p_exclude_column):
+
   Index the given employee data into the specified collection, excluding the column provided in     
   p_exclude_column.
+  
 3.searchByColumn(p_collection_name, p_column_name, p_column_value):
+
   Search within the specified collection for records where the column p_column_name matches the value   
   p_column_value.
+  
 4.getEmpCount(p_collection_name)
+
 5.delEmpById(p_collection_name, p_employee_id)
+
 6.getDepFacet(p_collection_name):
+
   Retrieve the count of employees grouped by department from the specified collection.
 
 ## Program
