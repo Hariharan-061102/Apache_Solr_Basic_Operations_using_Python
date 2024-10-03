@@ -142,5 +142,23 @@ getDepFacet(v_phoneCollection)
 ![last2](https://github.com/user-attachments/assets/57a8d734-a895-4fa3-a725-38193197ba28)
 ![last1](https://github.com/user-attachments/assets/2b0598af-8855-48d6-aa88-53ce435ac03c)
 
+### Explanation
+**CreateCollection**
+Here i have sent a request to the site to create a collection by specifying the collection name and url
+Also i have declared the Schema for Department alone because in the later part i have to perform Facet Operation to Department which can be done only if the Field type is String. So i declared the Schema for Department alone for my Favour.
 
+**indexData**
+Here i have to remove one column from the csv file then i have to index the documents to the collections.I used pandas library for preprocessing. I read the csv file, converted it into a dataFrame, then i dropped the desired column from the dataFrame and converted back into csv file in utf-8 encoding(Binary for transfering to the site).
+Then i Declared the url and headers and sent the request to the site.
 
+**searchbyColumn**
+here also i sent a request to the site to select the specified docs and displayed the output where the response is in json format.
+
+**getEmpCount**
+Here also i sent a request to only the number of entries by giving the query to select all and rows set to 0 such that no rows should retrieve.Only the count gets retrived by numFound.
+
+**delEmpById**
+Here i created a json file specifying to delete by a query based on the Employee_ID then i sent the json file to the site by request. Then that particular entry will be deleted.
+
+**getDeptFacet**
+Here by simply specifying the facet to true and facet.field to Department in the request. I have retrieved the Department Facets.
